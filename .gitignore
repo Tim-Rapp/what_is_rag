@@ -1,0 +1,40 @@
+build/
+.gradle/
+.kotlin/
+*.iml
+.idea/
+.DS_Store
+frontend/node_modules/
+frontend/dist/
+combined_season1-42.tsv
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+frontend/npm-debug.log*
+
+# Frontend tooling caches
+frontend/.vite/
+frontend/coverage/
+*.tsbuildinfo
+*.local
+
+# IDEs
+.vscode/
+*.iws
+*.ipr
+out/
+bin/
+.project
+.classpath
+.settings/
+
+# Claude Code local settings
+.claude/settings.local.json
