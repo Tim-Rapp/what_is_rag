@@ -1,0 +1,18 @@
+[project]
+name = "what-is-rag"
+version = "0.1.0"
+description = "Closed-book (and later RAG) Jeopardy! clue answering with an objective eval"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.40",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
